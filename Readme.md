@@ -31,7 +31,7 @@ A blog app with all the CRUD operations.
 
 2. Change into the project directory:
 
-- cd your-repo
+- cd .\Blog_App\
 
 3. Install dependencies:
 
@@ -39,7 +39,6 @@ A blog app with all the CRUD operations.
 
 4. Open a new terminal and change your repository to client directory:
 
-- cd ..
 - cd client
 
 5. Install dependencies:

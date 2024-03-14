@@ -67,7 +67,7 @@ export default function BlogCard({
     <Card
       sx={{
         backgroundColor: "#efefef",
-        width: "40%",
+        width: "65vh",
         margin: "auto",
         mt: 2,
         mb: 5,

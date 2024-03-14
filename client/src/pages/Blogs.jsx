@@ -26,7 +26,7 @@ const Blogs = () => {
   }, []);
   
   return (
-    <div>
+    <div style={{display:"flex", gap:"20px", flexWrap:"wrap"}}>
       {blogs &&
         blogs.map((blog) => (
           <BlogCard

@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-wrapper">
-
         <div>
           <p>
             <span>&copy; 2024 Blog App. Created by - </span>
             <a
               href="https://www.linkedin.com/in/harsh-yadav-b49b0a140/"
               target="_blank"
-              style={{fontWeight:"bold"}}
+              rel="noreferrer"
+              style={{ fontWeight: "bold" }}
             >
               Harsh Yadav
             </a>
@@ -21,14 +21,18 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href="https://www.linkedin.com/in/harsh-yadav-b49b0a140/" target="_blank">
-            <FaLinkedinIn size={20}/>
+          <a
+            href="https://www.linkedin.com/in/harsh-yadav-b49b0a140/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedinIn size={20} />
           </a>
-          <a href="https://my-portfolio-react-6qb3.vercel.app/" target="_blank">
-            <FaLink size={20}/>
+          <a href="https://my-portfolio-react-6qb3.vercel.app/" target="_blank" rel="noreferrer">
+            <FaLink size={20} />
           </a>
-          <a href="https://github.com/harshy1620" target="_blank">
-            <FaGithub size={20}/>
+          <a href="https://github.com/harshy1620" target="_blank" rel="noreferrer">
+            <FaGithub size={20} />
           </a>
         </div>
       </div>

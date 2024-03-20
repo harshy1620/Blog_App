@@ -34,7 +34,6 @@ const Login = () => {
           password: inputs.password,
         }
       );
-      console.log("Response data:", data);
       if (data.success) {
         localStorage.setItem("userId", data?.user._id);
         toast.success("User Logged In Successfully");
@@ -93,7 +92,6 @@ const Login = () => {
             type={"email"}
             required
             onChange={handleChange}
-            // onChange={(e) => setInputs(e.target.value)}
           />
           <TextField
             placeholder="password"
@@ -107,17 +105,23 @@ const Login = () => {
 
           <Button
             type="submit"
-            sx={{ borderRadius: 3, marginTop: 3 }}
+            sx={{ borderRadius: 2, marginTop: 3 }}
             variant="contained"
-            color="primary"
+            style={{ backgroundColor: "#D76F30", width: "14rem" }}
           >
             Submit
           </Button>
           <Button
             onClick={() => navigate("/register")}
-            sx={{ borderRadius: 3, marginTop: 3 }}
+            sx={{
+              borderRadius: 3,
+              marginTop: "5px",
+              textTransform: "none",
+              color: "#D76F30",
+              marginBottom: 3,
+            }}
           >
-            Not a user ? Please Register
+            Not a user? Please Register
           </Button>
         </Box>
       </form>

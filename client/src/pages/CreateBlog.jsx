@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import {
-  Box,
-  Button,
-  InputLabel,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Box, Button, InputLabel, TextField, Typography } from "@mui/material";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -71,7 +65,8 @@ const CreateBlog = () => {
       />
       <form onSubmit={handleSubmit}>
         <Box
-          width={"50%"}
+          className="create-blog-box"
+          // width={"50%"}
           height={"10%"}
           border={0}
           // borderRadius={10}

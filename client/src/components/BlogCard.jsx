@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
-import { red } from "@mui/material/colors";
+// import { red } from "@mui/material/colors";
 import ModeEditIcon from "@mui/icons-material/ModeEdit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { Box, IconButton, Link } from "@mui/material";
@@ -67,7 +67,7 @@ export default function BlogCard({
     <Card
       sx={{
         backgroundColor: "#efefef",
-        width: "40%",
+        width: "65vh",
         margin: "auto",
         mt: 2,
         mb: 5,

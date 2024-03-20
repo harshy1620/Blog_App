@@ -116,13 +116,20 @@ const Register = () => {
             type="submit"
             sx={{ borderRadius: 3, marginTop: 3 }}
             variant="contained"
-            color="primary"
+            // color="primary".
+            style={{ backgroundColor: "#D76F30", width: "14rem" }}
           >
             Submit
           </Button>
           <Button
             onClick={() => navigate("/login")}
-            sx={{ borderRadius: 3, marginTop: 3 }}
+            sx={{
+              borderRadius: 3,
+              textTransform: "none",
+              marginTop: "5px",
+              color: "#D76F30",
+              marginBottom: 3,
+            }}
           >
             Already Registered? Please Login
           </Button>

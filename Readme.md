@@ -8,7 +8,7 @@ A blog app with all the CRUD operations.
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
 - [Usage](#usage)
-- [Snapshots of Project](#sanpshots)
+- [Snapshots of Project](#snapshots-of-project)
 
 ## Features
 

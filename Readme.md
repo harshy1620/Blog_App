@@ -20,6 +20,8 @@ A blog app with all the CRUD operations.
 - User can update the blog
 - User can see details view of a particular blog
 - User-friendly interface with clear error handling and proper notification(using react-toastify)
+- Material UI libraray used to make the UI of this project
+- Responsive interface
 
 ## Installation
 

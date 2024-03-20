@@ -8,6 +8,7 @@ A blog app with all the CRUD operations.
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
 - [Usage](#usage)
+- [Snapshots of Project](#sanpshots)
 
 ## Features
 
@@ -67,3 +68,11 @@ Create a .env file in the root folder and add the following variables:
 
 - npm start
 - Visit http://localhost:3000 in your browser to view the app.
+
+## Snapshots of Project
+1.![Registration Page](https://github.com/harshy1620/Blog_App/blob/main/Register.png)
+2.![Login Page](https://github.com/harshy1620/Blog_App/blob/main/Login.png)
+3.![Home Page](https://github.com/harshy1620/Blog_App/blob/main/Home-Page.png)
+4.![Blog Details Page](https://github.com/harshy1620/Blog_App/blob/main/Blog-Details.png)
+5.![My Blogs Page](https://github.com/harshy1620/Blog_App/blob/main/My-Blogs.png)
+6.![Create A Blog Page](https://github.com/harshy1620/Blog_App/blob/main/Create-A-Blog.png)

@@ -31,7 +31,7 @@ A blog app with all the CRUD operations.
 
 2. Change into the project directory:
 
-- cd your-repo
+- cd .\Blog_App\
 
 3. Install dependencies:
 
@@ -39,7 +39,6 @@ A blog app with all the CRUD operations.
 
 4. Open a new terminal and change your repository to client directory:
 
-- cd ..
 - cd client
 
 5. Install dependencies:
@@ -50,7 +49,7 @@ A blog app with all the CRUD operations.
 
 Create a .env file in the root folder and add the following variables:
 
-- PORT
+- PORT=8080
 - MONGO_URI
 - Replace "MONGO_URI" with your MongoDB URI.
 - Or you can use my sample data using my MONGO_URI = "mongodb+srv://harshyadav6642:harshyadav6642@blog-app.b3rr7f4.mongodb.net/blog-app"

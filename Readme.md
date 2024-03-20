@@ -1,6 +1,6 @@
 # Blog App
 
-A blog app with all the CRUD operations.
+A blog app with all the CRUD operations using MERN stack and Material UI.
 
 ## Table of Contents
 
